@@ -9,70 +9,67 @@
 
 
 		body {
-		  margin: 0;
-		  font-family: Arial, Helvetica, sans-serif;
-		  background-color: #000407;
-		  color: #EDB518;
-
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #000407;
+			color: #EDB518;
 		}
 
 		.topnav {
-		  overflow: hidden;
-		  background-color: #79031D;
+			overflow: hidden;
+			background-color: #79031D;
 		}
 
 		.logo{
 			display: block;
 			margin: auto;
-
 		}
 
 		.topnav a {
-		  float: left;
-		  color: #EDB518;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		  font-size: 17px;
+			float: left;
+			color: #EDB518;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
 		}
 
 		.topnav a:hover {
-		  background-color: #EDB518;
-		  color: black;
+			background-color: #EDB518;
+			color: black;
 		}
 
 		.topnav a.active {
-		  background-color: #EDB518;
-		  color: #000407;
-		  text-decoration: underline;
-
+			background-color: #EDB518;
+			color: #000407;
+			text-decoration: underline;
 		}
 
 		header{
-		  text-align: center;
+			text-align: center;
 			font-size: 50px;
 		}
 
 		marquee{
-		background-color: #EDB518;
-		color: #000407;
+			background-color: #EDB518;
+			color: #000407;
 		}
 
 
 		html {
-		background-color: black;
-		  box-sizing: border-box;
+			background-color: white;
+		  	box-sizing: border-box;
 		}
 
 		*, *:before, *:after {
-		  box-sizing: inherit;
+		  	box-sizing: inherit;
 		}
 
 		.column {
-		  float: left;
-		  width: 33.3%;
-		  margin-bottom: 16px;
-		  padding: 0 8px;
+		  	float: left;
+		  	width: 33.3%;
+		  	margin-bottom: 16px;
+		  	padding: 0 8px;
 		}
 
 
@@ -80,42 +77,40 @@
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 			margin: 8px;
 			background: #79031D;
-
 		}
 
 		.about-section {
-		  padding: 50px;
-		  text-align: center;
-		  background-color: #474e5d;
-		  color: white;
+			padding: 50px;
+			text-align: center;
+			background-color: #474e5d;
+			color: white;
 		}
 
 		.container {
-		  padding: 0 16px;
+			padding: 0 16px;
 		}
 
 		.container::after, .row::after {
-		  content: "";
-		  clear: both;
-		  display: table;
-		  ;
+			content: "";
+			clear: both;
+			display: table;
 		}
 
-	.button {
-		  border: none;
-		  outline: 0;
-		  display: inline-block;
-		  padding: 8px;
-		  color: #EDB518;
-		  background-color: #000;
-		  text-align: center;
-		  cursor: pointer;
-		  width: 100%;
+		.button {
+			border: none;
+			outline: 0;
+			display: inline-block;
+			padding: 8px;
+			color: #EDB518;
+			background-color: #000;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
 		}
 
 		.button:hover {
-		  background-color: #EDB518;
-		  color: black;
+			background-color: #EDB518;
+			color: black;
 		}
 		@media screen and (max-width: 650px) {
 		  .column {
