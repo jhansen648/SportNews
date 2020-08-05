@@ -113,7 +113,12 @@
 		header {
 			display: block;
 			margin: auto;
-			padding: 20px;
+			padding: 10px;
+		}
+		.logo{
+			width: 200px;
+			height: 200px;
+			padding: 10px;
 		}
 		.button:hover {
 			background-color: #EDB518;
