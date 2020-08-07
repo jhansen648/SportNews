@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
 		<title>About Us</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="icon" href="images/SportNews.png">
 	<!-- 
 		Author(s):				Johnny Pack
@@ -12,20 +13,20 @@
 		Assignment:				Group Project
 		Purpose:				About Us Page detailing each developer in a summary.
 	-->
+	
 	</head>
 	<body>
-		<div class="logo">
-			<img src="images/SportNews.png" width="200" height="200"/>
-		</div>
-		<header></header>
-		<div class="topnav">
-			<a class="navbar-brand">Sport News</a>
-			<a href="index.html">Breaking News</a>
-			<a href="sporthistory.html">Today in Sports History</a>
-			<a href="groups.html">Groups</a>
-			<a class="active" href="aboutus.html">About Us</a>
-		</div>
-		<marquee behavior="scroll" direction="left">ETSU groups canceled due to COVID-19. Please remember to wear a facemask. </marquee>
+		<header>
+			<img src="images/SportNews.png" alt="logo" class="logo"  style="width: 200px; height: 200px; padding:20px;"/>
+			<div class="topnav">
+				<a class="navbar-brand">Sport News</a>
+				<a href="index.html">Breaking News</a>
+				<a href="sporthistory.html">Sports History</a>
+				<a href="groups.html">Groups</a>
+				<a class="active" href="aboutus.html">About Us</a>
+			</div>
+		</header>
+		
 		<div class="album py-5 bg-light">
 			<div class="container">
 				<div class="row">
@@ -34,18 +35,18 @@
 							<img class="card-img-top" alt="Johnny Pack" src="images/johnnypack.jpg">
 							<div class="card-body">
 								<h2>Johnny Pack</h2>
-								<p class="title">Developer</p>
+								<p class="title">Software Engineer</p>
 								<p class="card-text">Hello! I'm a .NET Core Developer, looking for employment.</p>
 								<div class="text-center">
-									<a href="mailto:PackJC@ETSU.EDU" target="PackJC@ETSU.EDU" class="btn btn-warning" style="display: center;">PackJC@ETSU.EDU</a>
+									<a href="mailto:PackJC@ETSU.EDU" target="PackJC@ETSU.EDU" class="btn btn-warning">PackJC@ETSU.EDU</a>
 								</div>
 								<br/>
 								<div class="text-center">
-									<a href="https://www.github.com/packjc"  class="btn btn-warning" style="display: center;">GitHub</a>
+									<a href="https://www.github.com/packjc" class="btn btn-warning">GitHub</a>
 								</div>
 								<br/>
 								<div class="text-center">
-									<a href="https://packjc.github.io/"  class="btn btn-warning" style="display: center;">Personal Website</a>
+									<a href="https://packjc.github.io/" class="btn btn-warning">Personal Website</a>
 								</div>
 							</div>
 						</div>
@@ -75,10 +76,5 @@
 		</div>
 		<script src="/js/w3c.js"></script>
 	</body>
-    <footer class="text-muted">
-      <div class="container">
-        <p>Sport News © 2020</p>
-      </div>
-    </footer>
 </html>
 
