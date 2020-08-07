@@ -3,42 +3,20 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
-		<title>Sport History</title>
+		<title>Sport's History</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="icon" href="images/SportNews.png">
 	<!-- 
-		Author(s):				
-		Date:					7.10.2020
+		Author(s):				John Hansen
+		Date:					8.7.2020
 		Assignment:				Group Project
-		Purpose:				Sport History Page
+		Purpose:				Provide users with a history of sports for the day
 	-->
 	</head>
 	<body>
-		<div class="logo">
-			<img src="images/SportNews.png" width="200" height="200"/>
-		</div>
-		<header></header>
-		<div class="topnav">
-			<a class="navbar-brand">Sport News</a>
-			<a href="index.html">Breaking News</a>
-			<a class="active" href="sporthistory.html">Today in Sports History</a>
-			<a href="groups.html">Groups</a>
-			<a href="aboutus.html">About Us</a>
-		</div>
-		<marquee behavior="scroll" direction="left">ETSU groups canceled due to COVID-19. Please remember to wear a facemask. </marquee>
-		<ul>
-			<li>1907- Lucien Petit-Breton wins first two Tour de France races</li>
-			<li>1909- Tim Hurst instigates a riot in an MLB game by spitting in the face of second basemen Eddie Collins</li>
-			<li>1910- Jack Coombs of the Philadelphia A's and Ed Walsh of the White Sox pitch a 0-0 tie in 16 innings</li>
-			<li>1922- Lizze Murphy becomes the first female to play against MLB players</li>
-			<li>1929- Cleveland Indians beat the New York Yankees 14-6 after trailing 6-5 in the 9th inning</li>
-			<li>1934- Mel Ott becomes the first player in MLB history to score 6 runs</li>
-			<li>1936-Jesse Owens wins his secont gold medal at the Berlin Olympics</li>
-			<li>1936- Helen Stephens runs 11.5 seconds to win the 100m at the Berlin Olympics</li>
-		</ul>
 		<header>
-			<img src="images/SportNews.png" alt="logo" style="width: 200px; height: 200px; padding:20px;"/>
+			<img src="images/SportNews.png" alt="logo" class="logo"  style="width: 200px; height: 200px; padding:20px;"/>
 			<div class="topnav">
 				<a class="navbar-brand">Sport News</a>
 				<a href="index.html">Breaking News</a>
@@ -47,7 +25,41 @@
 				<a href="aboutus.html">About Us</a>
 			</div>
 		</header>
-	
-		<script src="/js/w3c.js"></script>
+		<main role="main" class="container">
+		  <div class="row">
+			<div class="col-md-8 blog-main">
+			  <h3 class="pb-3 mb-4 font-italic border-bottom">
+				Today in Sports
+			  </h3>
+			  <div class="blog-post">
+				<h2 class="blog-post-title">Check out today in Sport's History!</h2>
+				<p class="blog-post-meta">January 8, 2020 by <a href="#">John</a></p>
+				<img src="images/lucienpetitbreton.jpg" alt="logo" class="logo"  style="width: 400px; height: 250px; padding:20px;"/>
+				<p>Lucien Petit-Breton wins first two Tour de France races.</p>
+				<hr>
+				<blockquote>
+					<p>This was an amazing race.<strong>With an unbelievable outcome.</strong>Be sure to read more to follow up on today's history.</p>
+				</blockquote>
+				<h2>1909</h2>
+				<img src="images/timhurst.jpg" alt="logo" class="logo"  style="width: 200px; height: 250px; padding:20px;"/>
+				<p>Tim Hurst instigates a riot in an MLB game by spitting in the face of second basemen Eddie Collins.</p>           
+				<h3>1922</h3>
+				<img src="images/lizziemurphy.jpg" alt="logo" class="logo"  style="width: 400px; height: 250px; padding:20px;"/>
+				<p>Lizze Murphy becomes the first female to play against MLB players.</p>
+				<h3>1936</h3>
+				<img src="images/jesseowens.jpg" alt="logo" class="logo"  style="width: 400px; height: 250px; padding:20px;"/>
+				<p>Jesse Owens wins his second gold medal at the Berlin Olympics.</p>
+			  </div><!-- /.blog-post -->
+			</div><!-- /.blog-main -->
+			<aside class="col-md-4 blog-sidebar">
+			  <div class="p-3">
+				<h4 class="font-italic">Elsewhere</h4>
+				<ol class="list-unstyled">
+				  <li><a href="https://github.com/">GitHub</a></li>
+				</ol>
+			  </div>
+			</aside><!-- /.blog-sidebar -->
+		  </div><!-- /.row -->
+		</main><!-- /.container -->
 	</body>
 </html>
